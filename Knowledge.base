@@ -1,3 +1,6 @@
+filters:
+  not:
+    - 'file.inFolder("System/Templates")'
 properties:
   file.name:
     displayName: Note
