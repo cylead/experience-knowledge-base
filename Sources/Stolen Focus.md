@@ -1,21 +1,22 @@
 ---
-type: book
-author: Johann Hari
-reading_status: reading
-started:
-finished:
+type: source
+source_kind: book
+creator: Johann Hari
+source_url:
+source_date:
+engagement_status: in-progress
 created: 2026-08-28
 updated: 2026-08-28
 ---
 
 # Stolen Focus: Why You Can't Pay Attention
 
-## Overview
+## Context
 
 > [!note] Agent-organized overview
 > The first captured reflection concerns the growing competition between basic needs and increasingly attractive alternatives.
 
-## Reading Log
+## Capture Log
 
 ### 2026-08-28 — Reflection 01
 

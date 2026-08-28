@@ -1,10 +1,11 @@
 ---
 type: practice
+practice_kind: experiment
 derived_from: []
 concepts: []
 origin: user
 status: proposed
-cadence: weekly
+cadence:
 next_review:
 created: "{{date:YYYY-MM-DD}}"
 updated: "{{date:YYYY-MM-DD}}"

@@ -1,5 +1,6 @@
 ---
 type: practice
+practice_kind: habit
 derived_from:
   - "[[Basic needs become harder to protect as their competitors get stronger]]"
 concepts:

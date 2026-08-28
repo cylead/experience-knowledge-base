@@ -4,24 +4,24 @@ created: 2026-08-28
 updated: 2026-08-28
 ---
 
-# Reading Knowledge System
+# Experience Knowledge Base
 
-This vault connects what you read to what you understand and practice. Start with a natural-language message to Codex; the proposed notes are shown for review before anything is saved.
+This vault connects what you encounter and experience to what you understand and practice. Sources can include books, news, conversations, games, personal experiences, spontaneous thoughts, and other material. Start with a natural-language message to Codex; the proposed notes are shown for review before anything is saved.
 
 > [!tip] Capture prompt
-> Capture this reading note for **[book title]**:
+> Capture this reflection from **[source or experience]**:
 >
 > **[your reflection in your own words]**
 >
-> Optional: **[short excerpt, page, or context]**
+> Optional: **[source kind, short excerpt, URL, date, or context]**
 
 After reviewing the proposal, reply **Approve** or describe the changes you want.
 
-For the lightweight habit loop, say **Start my weekly review**.
+For the lightweight practice loop, say **Start my weekly review**.
 
-## Book Library
+## Source Library
 
-![[Knowledge.base#Book library]]
+![[Knowledge.base#Source library]]
 
 ## Developing Insights
 

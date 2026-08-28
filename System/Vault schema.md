@@ -14,15 +14,17 @@ Markdown and YAML properties are the stable data interface. Concepts are notes l
 - Internal links inside YAML are quoted, for example `"[[Sleep]]"`.
 - Empty multi-value properties use `[]`.
 - `created` records the first saved date; `updated` changes whenever substantive content changes.
-- Raw captures remain verbatim inside the relevant book's reading log.
+- Raw captures remain verbatim inside the relevant source's capture log.
 
-## Book
+## Source
 
-Required properties: `type: book`, `author`, `reading_status`, `started`, `finished`, `created`, and `updated`.
+Required properties: `type: source`, `source_kind`, `created`, and `updated`.
 
-Recommended reading statuses: `planned`, `reading`, `paused`, `finished`, or `abandoned`.
+- Source kind: `book`, `news`, `conversation`, `game`, `experience`, `thought`, or `other`.
+- Optional metadata includes `creator`, `source_url`, `source_date`, and `engagement_status`. Record it only when applicable or supplied.
+- Suggested engagement statuses when needed: `planned`, `in-progress`, `paused`, `completed`, or `abandoned`.
 
-Required sections: Overview, Reading Log, Insights, Practices, and Open Questions.
+Required sections: Context, Capture Log, Insights, Practices, and Open Questions.
 
 ## Insight
 
@@ -42,10 +44,12 @@ Required sections: Definition, Boundaries / Non-examples, and Relationships. A c
 
 ## Practice
 
-Required properties: `type: practice`, `derived_from`, `concepts`, `origin`, `status`, `cadence`, `next_review`, `created`, and `updated`.
+Required properties: `type: practice`, `practice_kind`, `derived_from`, `concepts`, `origin`, `status`, `created`, and `updated`.
 
-- Status: `proposed`, `active`, `paused`, or `retired`.
+- Practice kind: `action` for a one-time behavior, `experiment` for a time-bounded test, or `habit` for repeated behavior.
+- Status: `proposed`, `active`, `paused`, `completed`, or `retired`.
 - Origin: `user` or `agent-suggestion`.
+- `cadence` and `next_review` are optional when they do not suit a one-time action. An active practice appears in the due view only when `next_review` is set.
 
 Required sections: Rationale, Cue, Smallest Viable Behavior, Success Signal, and Review Log.
 

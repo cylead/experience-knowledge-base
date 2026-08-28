@@ -4,10 +4,14 @@ filters:
 properties:
   file.name:
     displayName: Note
-  author:
-    displayName: Author
-  reading_status:
-    displayName: Reading status
+  source_kind:
+    displayName: Source kind
+  creator:
+    displayName: Creator
+  source_date:
+    displayName: Source date
+  engagement_status:
+    displayName: Engagement status
   maturity:
     displayName: Maturity
   aliases:
@@ -18,6 +22,8 @@ properties:
     displayName: Origin
   status:
     displayName: Status
+  practice_kind:
+    displayName: Practice kind
   cadence:
     displayName: Cadence
   next_review:
@@ -26,16 +32,16 @@ properties:
     displayName: Updated
 views:
   - type: table
-    name: "Book library"
+    name: "Source library"
     filters:
       and:
-        - 'type == "book"'
+        - 'type == "source"'
     order:
       - file.name
-      - author
-      - reading_status
-      - started
-      - finished
+      - source_kind
+      - creator
+      - engagement_status
+      - source_date
       - updated
   - type: table
     name: "Developing insights"
@@ -68,6 +74,7 @@ views:
         - 'status == "proposed"'
     order:
       - file.name
+      - practice_kind
       - derived_from
       - concepts
       - origin
@@ -82,6 +89,7 @@ views:
         - 'next_review <= today()'
     order:
       - file.name
+      - practice_kind
       - next_review
       - cadence
       - derived_from
