@@ -1,0 +1,85 @@
+properties:
+  file.name:
+    displayName: Note
+  author:
+    displayName: Author
+  reading_status:
+    displayName: Reading status
+  maturity:
+    displayName: Maturity
+  aliases:
+    displayName: Aliases
+  related_concepts:
+    displayName: Related concepts
+  origin:
+    displayName: Origin
+  status:
+    displayName: Status
+  cadence:
+    displayName: Cadence
+  next_review:
+    displayName: Next review
+  updated:
+    displayName: Updated
+views:
+  - type: table
+    name: "Book library"
+    filters:
+      and:
+        - 'type == "book"'
+    order:
+      - file.name
+      - author
+      - reading_status
+      - started
+      - finished
+      - updated
+  - type: table
+    name: "Developing insights"
+    filters:
+      and:
+        - 'type == "insight"'
+        - 'maturity != "evergreen"'
+    order:
+      - file.name
+      - maturity
+      - sources
+      - concepts
+      - origin
+      - updated
+  - type: table
+    name: "Concept index"
+    filters:
+      and:
+        - 'type == "concept"'
+    order:
+      - file.name
+      - aliases
+      - related_concepts
+      - updated
+  - type: table
+    name: "Proposed practices"
+    filters:
+      and:
+        - 'type == "practice"'
+        - 'status == "proposed"'
+    order:
+      - file.name
+      - derived_from
+      - concepts
+      - origin
+      - cadence
+      - updated
+  - type: table
+    name: "Active practices due"
+    filters:
+      and:
+        - 'type == "practice"'
+        - 'status == "active"'
+        - 'next_review <= today()'
+    order:
+      - file.name
+      - next_review
+      - cadence
+      - derived_from
+      - updated
