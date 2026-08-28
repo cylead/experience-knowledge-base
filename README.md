@@ -2,6 +2,8 @@
 
 A local-first Obsidian vault for turning sources and life experiences into connected knowledge and deliberate practice.
 
+This approach is useful for organizing scattered thoughts and discovering connections among them. It is not a good fit for content that is already well organized on its own.
+
 ## The Role of the LLM
 
 The LLM does not replace the user's thinking or act as the source of truth. Its role is to:
