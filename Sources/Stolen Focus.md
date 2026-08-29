@@ -6,7 +6,7 @@ source_url:
 source_date:
 engagement_status: in-progress
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-29
 ---
 
 # Stolen Focus: Why You Can't Pay Attention
@@ -14,7 +14,7 @@ updated: 2026-08-28
 ## Context
 
 > [!note] Agent-organized overview
-> The first captured reflection concerns the growing competition between basic needs and increasingly attractive alternatives.
+> The captured reflections concern both the growing competition between basic needs and increasingly attractive alternatives, and the different ways attention moves through books and internet content.
 
 ## Capture Log
 
@@ -24,9 +24,16 @@ updated: 2026-08-28
 
 ^capture-20260828-stolen-focus-01
 
+### 2026-08-29 — Reflection 02
+
+> I am reading the book Stolen Focus Why you can‘t pay attention, and I think the opinion that the way we read books and content on internet quite differently makes sense. One is linear and ther other one allows lots of skips and context switching. This fundamental differences leads to lots of sequential effects.
+
+^capture-20260829-stolen-focus-02
+
 ## Insights
 
 - [[Basic needs become harder to protect as their competitors get stronger]]
+- [[The structure of a medium shapes how attention moves through content]]
 
 ## Practices
 
@@ -36,3 +43,6 @@ updated: 2026-08-28
 
 > [!question] Agent-suggested
 > Which activities or stimuli most often compete with sleep in your own evenings?
+
+> [!question] Agent-suggested
+> What downstream effects follow from switching between linear reading, skipping, and frequent changes of context?
