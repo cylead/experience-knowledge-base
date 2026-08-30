@@ -6,7 +6,7 @@ source_url:
 source_date:
 engagement_status: in-progress
 created: 2026-08-28
-updated: 2026-08-29
+updated: 2026-08-30
 ---
 
 # Stolen Focus: Why You Can't Pay Attention
@@ -14,7 +14,7 @@ updated: 2026-08-29
 ## Context
 
 > [!note] Agent-organized overview
-> The captured reflections concern both the growing competition between basic needs and increasingly attractive alternatives, and the different ways attention moves through books and internet content.
+> The captured reflections concern the growing competition between basic needs and increasingly attractive alternatives, the different ways attention moves through books and internet content, and the risk that social-media feeds become the default use of brief spare periods.
 
 ## Capture Log
 
@@ -30,10 +30,17 @@ updated: 2026-08-29
 
 ^capture-20260829-stolen-focus-02
 
+### 2026-08-30 — Reflection 03
+
+> I am reading the book Stolen Focus Why You Can't Pay Attention, and I see that we do have the problem of not knowing how to use short period of spare time, and social media provide a solution that looks reasonable but is mentally distructive. We need to carefully think about how to make a good use of those period of time instead of relying on social media's feed.
+
+^capture-20260830-stolen-focus-03
+
 ## Insights
 
 - [[Basic needs become harder to protect as their competitors get stronger]]
 - [[The structure of a medium shapes how attention moves through content]]
+- [[When spare moments lack an intended use, social media feeds can become a mentally destructive default]]
 
 ## Practices
 
